@@ -1,10 +1,24 @@
+/* Basic */
+
+body {
+    margin: 0;
+}
+
 /* Google Apps*/
 .google-apps a {
     color: black;
+    padding: 4px;
 }
 
 .google-apps img {
     width: 24px;
+    margin: 0 16px;
+}
+
+.google-apps a,
+.google-apps img {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /* Account */
@@ -16,6 +30,16 @@
 }
 
 /* Search Form */
+
+.search-form {
+    margin: 32px 0;
+}
+
+.search-form input,
+.search-form img {
+    display: inline-block;
+    vertical-align: middle;
+}
 
 .search-form input {
     padding: 12px;
@@ -35,6 +59,7 @@
 
 .internationalization a {
     color: blue;
+    margin: 32px 0;
 }
 
 .navigation a {
@@ -47,22 +72,8 @@
 .account {
     display: inline-block;
     vertical-align: middle;
-}
-
-/* Google Apps */
-
-.google-apps img {    
-    margin: 0 16px;
-}
-
-.google-apps a {
-    padding: 4px;
-}
-
-.google-apps a,
-.google-apps img {
-    display: inline-block;
-    vertical-align: middle;
+    padding: 16px;
+    text-align: right;
 }
 
 /* Main */
@@ -72,24 +83,6 @@ main {
 }
 
 .google-logo {
-    margin: 32px 0;
-}
-
-/* Search Form */
-
-.search-form {
-    margin: 32px 0;
-}
-
-.search-form input,
-.search-form img {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-/* Internationalization*/
-
-.internationalization {
     margin: 32px 0;
 }
 
@@ -104,15 +97,3 @@ footer .navigation a {
     margin: 16px;
 }
 
-/* Basic */
-
-body {
-    margin: 0;
-}
-
-/* Header */
-
-header {
-    padding: 16px;
-    text-align: right;
-}
