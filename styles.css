@@ -1,0 +1,118 @@
+/* Google Apps*/
+.google-apps a {
+    color: black;
+}
+
+.google-apps img {
+    width: 24px;
+}
+
+/* Account */
+
+.account button {
+    padding: 8px 12px;
+    background-color: blue;
+    color: white;
+}
+
+/* Search Form */
+
+.search-form input {
+    padding: 12px;
+}
+
+.search-form img {
+    width: 24px;
+}
+
+.search-form button {
+    padding: 12px 16px;
+    background-color: lightgray;
+    color: black;
+}
+
+/* Internationalization */
+
+.internationalization a {
+    color: blue;
+}
+
+.navigation a {
+    color: black;
+}
+
+/* Header */
+
+.google-apps,
+.account {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Google Apps */
+
+.google-apps img {    
+    margin: 0 16px;
+}
+
+.google-apps a {
+    padding: 4px;
+}
+
+.google-apps a,
+.google-apps img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Main */
+
+main {
+    text-align: center;
+}
+
+.google-logo {
+    margin: 32px 0;
+}
+
+/* Search Form */
+
+.search-form {
+    margin: 32px 0;
+}
+
+.search-form input,
+.search-form img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Internationalization*/
+
+.internationalization {
+    margin: 32px 0;
+}
+
+/* Footer */
+
+footer .navigation {
+    padding: 16px;
+    background-color: lightgray;
+}
+
+footer .navigation a {
+    margin: 16px;
+}
+
+/* Basic */
+
+body {
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    padding: 16px;
+    text-align: right;
+}
