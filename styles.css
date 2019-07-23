@@ -77,6 +77,7 @@ header {
 .search-form input {
     padding: 12px;
     width: 100%;
+    margin-bottom: 4%;
 }
 
 .text-box {
@@ -91,6 +92,7 @@ header {
     padding: 12px 16px;
     background-color: lightgray;
     color: black;
+    margin: 1%;
 }
 
 .voice-search {
