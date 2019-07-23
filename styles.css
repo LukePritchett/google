@@ -7,6 +7,7 @@ body {
 
 header {
     text-align: right;
+    padding: 16px;
 }
 
 /* Google Apps*/
@@ -54,8 +55,17 @@ header {
 
 /* Search Form */
 
+.search {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+
 .search-form {
     margin: 32px 0;
+    position: relative;
 }
 
 .search-form input,
@@ -66,6 +76,11 @@ header {
 
 .search-form input {
     padding: 12px;
+    width: 100%;
+}
+
+.text-box {
+    display: inline;
 }
 
 .search-form img {
@@ -78,6 +93,16 @@ header {
     color: black;
 }
 
+.voice-search {
+    /* Layout */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.voice-search img {
+    padding: 10px;
+}
 /* Internationalization */
 
 .internationalization a {
