@@ -46,6 +46,12 @@ header {
     color: white;
 }
 
+.google-logo,
+.search,
+.internationalization {
+    margin: 32px;
+}
+
 /* Search Form */
 
 .search-form {
@@ -99,10 +105,15 @@ main {
 }
 
 .google-logo {
-    margin: 32px 0;
+    margin-top: 10%;
 }
 
 /* Footer */
+
+footer {
+    display: block;
+    margin-top: 22%;
+}
 
 footer .navigation {
     padding: 16px;
