@@ -112,7 +112,9 @@ main {
 
 footer {
     display: block;
-    margin-top: 22%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer .navigation {
