@@ -148,6 +148,7 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 15px;
+    color: rgba(0,0,0,.54);
 }
 
 .location {
@@ -162,6 +163,7 @@ footer .navigation {
 
 footer .navigation a {
     margin: 16px;
+    color: rgba(0,0,0,.54);
 }
 
 .nav-left {
