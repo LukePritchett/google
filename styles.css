@@ -49,7 +49,7 @@ header {
 
 .google-logo,
 .search,
-.internationalization {
+.international {
     margin: 32px;
 }
 
@@ -110,6 +110,8 @@ header {
 
 .voice-search img {
     padding: 10px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 .international {
