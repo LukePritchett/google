@@ -162,13 +162,18 @@ footer {
 }
 
 .location {
-    padding-bottom: 1em;
-    padding-left: 1em;
+    text-align: left;
+    padding: 16px;
+    padding-left: 32px;
+    border-bottom: 1px;
+    background-color: rgb(241, 234, 234);
+    border-bottom-color: rgb(97, 95, 95);
 }
 
 footer .navigation {
     padding: 16px;
-    background-color: lightgray;
+    background-color: rgb(241, 234, 234);
+    border-top: 1px;
 }
 
 footer .navigation a {
