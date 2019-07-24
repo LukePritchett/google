@@ -111,11 +111,9 @@ header {
 .voice-search img {
     padding: 10px;
 }
-/* Internationalization */
 
-.internationalization a {
-    color: blue;
-    margin: 32px 0;
+.international {
+    font-size: small;
 }
 
 .navigation a {
@@ -129,6 +127,7 @@ header {
     display: inline-block;
     vertical-align: middle;
     text-align: right;
+    font-size: 13px;
 }
 
 /* Main */
