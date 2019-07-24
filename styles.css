@@ -118,6 +118,14 @@ header {
     font-size: small;
 }
 
+.international a {
+    text-decoration: none;
+}
+
+.international a:hover {
+    text-decoration: underline;
+}
+
 .navigation a {
     color: black;
 }
@@ -166,6 +174,11 @@ footer .navigation {
 footer .navigation a {
     margin: 16px;
     color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
 }
 
 .nav-left {
