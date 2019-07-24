@@ -148,6 +148,12 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-size: 15px;
+}
+
+.location {
+    padding-bottom: 1em;
+    padding-left: 1em;
 }
 
 footer .navigation {
@@ -157,5 +163,17 @@ footer .navigation {
 
 footer .navigation a {
     margin: 16px;
+}
+
+.nav-left {
+    text-align: left;
+    display: inline-block;
+}
+
+.nav-right {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 1%;
 }
 
