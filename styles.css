@@ -29,6 +29,7 @@ header {
 .google-apps img {
     width: 24px;
     margin: 0;
+    cursor: pointer;
 }
 
 .google-apps a,
@@ -45,9 +46,13 @@ header {
 .account button {
     padding: 8px 12px;
     margin: 0 8px;
-    background-color: blue;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(108, 108, 248);
     color: white;
+    cursor: pointer;
 }
+
 
 .google-logo,
 .search,
